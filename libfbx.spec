@@ -7,6 +7,7 @@ License:	LGPL v2.1+
 Group:		Libraries
 # ftp.u4x.org doesn't exist now
 Source0:	http://dl.sourceforge.net/u4x/%{name}-%{version}.tar.gz
+# Source0-md5:	ed280a7f4f0675450dedb7d9cb0238aa
 URL:		http://developer.u4x.org/libfbx/
 BuildRequires:	autoconf
 BuildRequires:	automake
