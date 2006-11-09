@@ -40,7 +40,7 @@ graficzne, które nie potrzebuj± lub nie chc± zale¿no¶ci od X11.
 Summary:	libfbx header files
 Summary(pl):	Pliki nag³ówkowe libfbx
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 libfbx header files.
@@ -52,7 +52,7 @@ Pliki nag³ówkowe libfbx.
 Summary:	libfbx static libraries
 Summary(pl):	Statyczne biblioteki libfbx
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 libfbx static libraries.
