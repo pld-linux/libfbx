@@ -1,5 +1,5 @@
 Summary:	Library of extensions to the Linux framebuffer subsystem
-Summary(pl):	Biblioteka rozszerzeñ linuksowego framebuffera
+Summary(pl.UTF-8):   Biblioteka rozszerzeÅ„ linuksowego framebuffera
 Name:		libfbx
 Version:	0.2.0
 Release:	1
@@ -27,37 +27,37 @@ libfbx-gui is a library of graphical extensions to libfbx. It will
 offer such things as a complete widget set, mouse support, a message
 handler, and so forth, upon completion.
 
-%description -l pl
-libfbx to biblioteka rozszerzeñ linuksowego framebuffera. Udostêpnia
-funkcje rysuj±ce wiele prymitywów i podstawowe wy¶wietlanie tekstu.
-Nie ma funkcji wej¶cia (jako ¿e nie nale¿± do biblioteki rysuj±cej).
-Celem biblioteki jest udostêpnienie warstwy niskopoziomowego dostêpu
-dla bibliotek i aplikacji wy¿szego poziomu, takich jak system
+%description -l pl.UTF-8
+libfbx to biblioteka rozszerzeÅ„ linuksowego framebuffera. UdostÄ™pnia
+funkcje rysujÄ…ce wiele prymitywÃ³w i podstawowe wyÅ›wietlanie tekstu.
+Nie ma funkcji wejÅ›cia (jako Å¼e nie naleÅ¼Ä… do biblioteki rysujÄ…cej).
+Celem biblioteki jest udostÄ™pnienie warstwy niskopoziomowego dostÄ™pu
+dla bibliotek i aplikacji wyÅ¼szego poziomu, takich jak system
 okienkowy, wbudowane oprogramowanie graficzne czy inne aplikacje
-graficzne, które nie potrzebuj± lub nie chc± zale¿no¶ci od X11.
+graficzne, ktÃ³re nie potrzebujÄ… lub nie chcÄ… zaleÅ¼noÅ›ci od X11.
 
 %package devel
 Summary:	libfbx header files
-Summary(pl):	Pliki nag³ówkowe libfbx
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe libfbx
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 libfbx header files.
 
-%description devel -l pl
-Pliki nag³ówkowe libfbx.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe libfbx.
 
 %package static
 Summary:	libfbx static libraries
-Summary(pl):	Statyczne biblioteki libfbx
+Summary(pl.UTF-8):   Statyczne biblioteki libfbx
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 libfbx static libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczne biblioteki libfbx.
 
 %prep
