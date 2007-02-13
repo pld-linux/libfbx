@@ -1,5 +1,5 @@
 Summary:	Library of extensions to the Linux framebuffer subsystem
-Summary(pl.UTF-8):   Biblioteka rozszerzeń linuksowego framebuffera
+Summary(pl.UTF-8):	Biblioteka rozszerzeń linuksowego framebuffera
 Name:		libfbx
 Version:	0.2.0
 Release:	1
@@ -38,7 +38,7 @@ graficzne, które nie potrzebują lub nie chcą zależności od X11.
 
 %package devel
 Summary:	libfbx header files
-Summary(pl.UTF-8):   Pliki nagłówkowe libfbx
+Summary(pl.UTF-8):	Pliki nagłówkowe libfbx
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -50,7 +50,7 @@ Pliki nagłówkowe libfbx.
 
 %package static
 Summary:	libfbx static libraries
-Summary(pl.UTF-8):   Statyczne biblioteki libfbx
+Summary(pl.UTF-8):	Statyczne biblioteki libfbx
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
